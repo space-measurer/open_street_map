@@ -31,7 +31,7 @@ defmodule OpenStreetMap.MixProject do
     [
       {:httpoison, "~> 1.6"},
       {:hackney, "~> 1.16"},
-      {:poison, ">= 3.1"},
+      {:jason, "~> 1.0"},
       {:ex_doc, "~> 0.14", only: :dev}
     ]
   end
